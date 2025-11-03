@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 # Hysteria2 极简部署脚本（支持命令行端口参数 + 默认跳过证书验证）
 # 适用于超低内存环境（32-64MB）
@@ -8,7 +8,7 @@ set -e
 # ---------- 默认配置 ----------
 HYSTERIA_VERSION="v2.6.5"
 DEFAULT_PORT=22222         # 自适应端口
-AUTH_PASSWORD="ieshare2025"   # 建议修改为复杂密码
+AUTH_PASSWORD="gty20251103"   # 建议修改为复杂密码
 CERT_FILE="cert.pem"
 KEY_FILE="key.pem"
 SNI="www.bing.com"
